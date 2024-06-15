@@ -1,21 +1,26 @@
 body {
-  background: #f4eeff;
-  font-family: sans-serif;
-  color: #424874;
+  background-image: url(../world.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  height: 100vh;
+  font-family: Vollkorn;
+  color: #58727f;
 }
 
 .container {
   max-width: 600px;
   margin: 60px auto;
-  background: #dcd6f7;
+  background: #e5e5e5;
   padding: 30px;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
-  border-radius: 90px;
+  border-radius: 30px;
 }
 
 h1 {
   text-align: center;
-  font-size: 36px;
+  font-size: 40px;
 }
 
 select {
@@ -25,7 +30,8 @@ select {
   padding: 10px;
   font-size: 18px;
   border: none;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  color: #83afa6;
 }
 
 .city {
@@ -42,14 +48,14 @@ select {
 
 h2 {
   margin: 0 0 5px;
-  font-size: 28px;
+  font-size: 32px;
 }
 
 .date {
-  opacity: 0.7;
+  color: #b58466;
 }
 .time {
-  font-size: 48px;
+  font-size: 46px;
   font-weight: bold;
 }
 
@@ -57,15 +63,17 @@ h2 {
   font-size: 24px;
   vertical-align: middle;
   line-height: 36px;
+  color: #b58466;
 }
 
 footer {
+  padding: 20px;
   text-align: center;
   font-size: 14px;
-  color: rgba(0, 0, 0, 0.7);
+  color: #58727f;
 }
 
 a {
-  color: #424874;
+  color: #b58466;
   font-weight: bold;
 }
