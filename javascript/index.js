@@ -10,14 +10,16 @@ function updateTime() {
     "hh:mm:ss [<small>]A[<small>]"
   );
 
-  //paris
-  let parisElement = document.querySelector("#paris");
-  let parisDateElement = parisElement.querySelector(".date");
-  let parisTimeElement = parisElement.querySelector(".time");
-  let parisTime = moment().tz("Europe/Paris");
+  //fortaleza
+  let fortalezaElement = document.querySelector("#fortaleza");
+  let fortalezaDateElement = fortalezaElement.querySelector(".date");
+  let fortalezaTimeElement = fortalezaElement.querySelector(".time");
+  let fortalezaTime = moment().tz("America/Fortaleza");
 
-  parisDateElement.innerHTML = parisTime.format("MMMM Do YYYY");
-  parisTimeElement.innerHTML = parisTime.format("hh:mm:ss [<small>]A[<small>]");
+  fortalezaDateElement.innerHTML = fortalezaTime.format("MMMM Do YYYY");
+  fortalezaTimeElement.innerHTML = fortalezaTime.format(
+    "hh:mm:ss [<small>]A[<small>]"
+  );
 }
 
 updateTime();
@@ -43,6 +45,7 @@ function updateCity(event) {
             )} <small>${cityTime.format("A")}</small></div>
           </div>
         </div>
+        <a href="/">All cities</a>
   `;
 }
 

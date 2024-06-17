@@ -78,3 +78,13 @@ a {
   color: #b58466;
   font-weight: bold;
 }
+
+@media screen and (max-width: 455px) {
+  .city {
+    display: block;
+    text-align: center;
+  }
+  body {
+    overflow: unset;
+  }
+}
