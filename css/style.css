@@ -57,6 +57,7 @@ h2 {
 .time {
   font-size: 46px;
   font-weight: bold;
+  font-family: sans-serif;
 }
 
 .time small {
